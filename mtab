@@ -1,0 +1,5 @@
+(null) / xfs rw,bind,noatime 0 0
+/var/portage/packages /build/runtime-root/var/portage/packages none ro,bind 0 0
+/var/lib/layman/foss-cloud /build/runtime-root/var/lib/layman/foss-cloud none ro,bind 0 0
+/usr/portage /build/runtime-root/usr/portage none ro,bind 0 0
+none /build/runtime-root/proc proc rw 0 0
